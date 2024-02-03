@@ -4,7 +4,11 @@
     display: none;
   }
 
-  .navbar .toggle-button{
+  .navbar .toggle-button {
+    display: block;
+  }
+
+  .dropdown-menu {
     display: block;
   }
 }

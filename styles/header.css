@@ -1,1 +1,54 @@
+header {
+  position: relative;
+  padding: 0 2rem;
+}
 
+.navbar {
+  width: 100%;
+  max-width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo a {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar .toggle-button {
+  display: none;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.action-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: orange;
+  color: #fff;
+  cursor: pointer;
+  transition: scale 0.3s ease 0s;
+}
+
+.action-button:hover {
+  scale: 1.05;
+  color: #fff;
+}
+
+.action-button:active{
+    scale: 0.95;
+}

@@ -14,7 +14,7 @@
 body {
   height: 100vh;
   background-color: #000;
-  background: url("./img/maria.jpg") 17% 100% / cover no-repeat;
+  background: url("./img/maria.jpg") 20% 100% / cover no-repeat;
 }
 
 li {
